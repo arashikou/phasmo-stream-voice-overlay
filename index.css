@@ -1,0 +1,25 @@
+.controller.custom {
+    background: url(stream_chat.png);
+    position: relative;
+    height: 503px;
+    width: 343px;
+}
+
+.custom .bumper {
+    position: absolute;
+    height: 503px;
+    width: 343px;
+    opacity: 0;
+}
+
+.custom .bumper.pressed {
+    opacity: 1;
+}
+
+.custom .bumper.left {
+    background: url(local_chat.png);
+}
+
+.custom .bumper.right {
+    background: url(global_chat.png);
+}

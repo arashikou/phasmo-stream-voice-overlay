@@ -1,14 +1,14 @@
 .controller.custom {
     background: url(stream_chat.png);
     position: relative;
-    height: 503px;
-    width: 343px;
+    width: 503px;
+    height: 343px;
 }
 
 .custom .bumper {
     position: absolute;
-    height: 503px;
-    width: 343px;
+    width: 503px;
+    height: 343px;
     opacity: 0;
 }
 

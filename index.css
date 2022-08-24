@@ -5,7 +5,6 @@
 
 .custom .bumper {
     position: absolute;
-    left: 9px;
     opacity: 0;
 }
 
@@ -17,12 +16,14 @@
     background: url(speechlocal.gif);
     width: 243px;
     height: 180px;
+    left: 18px;
 }
 
 .custom .bumper.right {
     background: url(speechglobal.gif);
     width: 252px;
     height: 180px;
+    left: 9px;
 }
 
 .custom .bumpers .clear {

@@ -1,5 +1,4 @@
 .controller.custom {
-    background: url(speechstream.gif);
     width: 261px;
     height: 180px;
 }
@@ -23,4 +22,16 @@
     background: url(speechglobal.gif);
     width: 252px;
     height: 180px;
+}
+
+.custom .bumpers .clear {
+    background: url(speechstream.gif);
+    position: absolute;
+    width: 261px;
+    height: 180px;
+    opacity: 1;
+}
+
+.custom .bumpers .pressed~.clear {
+    opacity: 0;
 }

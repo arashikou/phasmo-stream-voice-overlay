@@ -1,13 +1,11 @@
 .controller.custom {
-    background: url(stream_chat.png);
-    width: 503px;
-    height: 343px;
+    background: url(speechstream.gif);
+    width: 261px;
+    height: 180px;
 }
 
 .custom .bumper {
     position: absolute;
-    width: 503px;
-    height: 343px;
     opacity: 0;
 }
 
@@ -16,9 +14,13 @@
 }
 
 .custom .bumper.left {
-    background: url(local_chat.png);
+    background: url(speechlocal.gif);
+    width: 243px;
+    height: 180px;
 }
 
 .custom .bumper.right {
-    background: url(global_chat.png);
+    background: url(speechglobal.gif);
+    width: 252px;
+    height: 180px;
 }
